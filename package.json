@@ -1,7 +1,7 @@
 {
   "name": "utc-clock",
   "version": "0.1.1",
-  "description": "...",
+  "description": "A simple UTC clock, which can be used to determine the current UTC date/time in milliseconds since 1970/01/01 or formatted as ISO string.",
   "main": "source/utcclock.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
