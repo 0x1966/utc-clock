@@ -27,7 +27,7 @@
 
     //export to either amd/requirejs or node
 
-    if (module && module.exports) {
+    if (typeof module !== "undefined" && typeof module.exports !== "undefined") {
         module.exports = UTCClock;
 
     } else if (typeof define === "function" && define.amd) {
